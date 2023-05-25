@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/bahiart.dir/tests/networkmodel/testNetworkModel.cpp.o  -o bahiart  src/network/libtcpsocket.a src/network/libsockets.a 

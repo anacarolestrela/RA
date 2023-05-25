@@ -1,0 +1,11 @@
+/home/anacarol/bahiart2023/build/CMakeFiles/rebuild_cache.dir
+/home/anacarol/bahiart2023/build/CMakeFiles/edit_cache.dir
+/home/anacarol/bahiart2023/build/CMakeFiles/jurema.dir
+/home/anacarol/bahiart2023/build/CMakeFiles/bahiart.dir
+/home/anacarol/bahiart2023/build/src/CMakeFiles/rebuild_cache.dir
+/home/anacarol/bahiart2023/build/src/CMakeFiles/edit_cache.dir
+/home/anacarol/bahiart2023/build/src/network/CMakeFiles/rebuild_cache.dir
+/home/anacarol/bahiart2023/build/src/network/CMakeFiles/edit_cache.dir
+/home/anacarol/bahiart2023/build/src/network/CMakeFiles/udpsocket.dir
+/home/anacarol/bahiart2023/build/src/network/CMakeFiles/tcpsocket.dir
+/home/anacarol/bahiart2023/build/src/network/CMakeFiles/sockets.dir

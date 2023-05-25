@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/jurema.dir/src/agent/jurema.cpp.o  -o jurema  src/network/libtcpsocket.a src/network/libsockets.a 

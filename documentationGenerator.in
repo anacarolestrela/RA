@@ -1,0 +1,67 @@
+
+PROJECT_NAME           = "BahiaRT Network Manager"
+
+PROJECT_BRIEF		= "" #someone can put a project brief here
+
+PROJECT_LOGO           = ../img/logo.png
+
+OUTPUT_DIRECTORY	= "../documentation"
+
+FULL_PATH_NAMES	= NO
+
+FILE_PATTERNS 		= *.hpp *.txt
+
+INCLUDE_PATH		= ../src/network/
+
+#include bellow paths to where header files are, they just need to be separated by spaces: 
+INPUT 			= ../src/network/ ../README.md
+
+IMAGE_PATH 		= ../img/
+
+USE_MDFILE_AS_MAINPAGE = README.md
+
+EXAMPLE_PATH		= ../Documentation/
+
+RECURSIVE		= YES
+
+CALL_GRAPH             = YES
+
+CALLER_GRAPH           = YES
+
+EXTRACT_ALL            = YES
+
+DISTRIBUTE_GROUP_DOC   = YES
+
+EXTRACT_PACKAGE        = YES
+
+EXTRACT_STATIC         = YES
+
+EXTRACT_ANON_NSPACES   = YES
+
+WARN_NO_PARAMDOC       = YES
+
+SOURCE_BROWSER         = YES
+
+INLINE_SOURCES         = YES
+
+REFERENCED_BY_RELATION = YES
+
+REFERENCES_LINK_SOURCE = NO
+
+GENERATE_LATEX 	= NO
+
+GENERATE_HTML		= YES
+
+HTML_COLORSTYLE_SAT 	= 150
+
+HTML_COLORSTYLE_GAMMA 	= 70
+
+HTML_DYNAMIC_SECTIONS	= YES
+
+GENERATE_TREEVIEW      = YES
+
+DISABLE_INDEX          = YES
+
+TREEVIEW_WIDTH		= 400
+
+FULL_SIDEBAR           = YES

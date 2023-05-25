@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anacarol/bahiart2023/src/network/socket.cpp
+socket.hpp
+/home/anacarol/bahiart2023/src/network/socket.hpp
+
+/home/anacarol/bahiart2023/src/network/socket.hpp
+string.h
+-
+iostream
+-
+vector
+-
+memory
+-
+cstring
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netdb.h
+-
+sys/poll.h
+-
+
