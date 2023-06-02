@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bahiart"
+			"path" : "jurema"
 		}
 	],
 	"backtrace" : 1,
@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 11,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " "
+					"fragment" : "-g  "
 				}
 			],
 			"includes" : 
@@ -70,11 +70,15 @@
 			"id" : "sockets::@311edf953348ef8fadde"
 		}
 	],
-	"id" : "bahiart::@6890427a1f51a3e7e1df",
+	"id" : "jurema::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -91,8 +95,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "bahiart",
-	"nameOnDisk" : "bahiart",
+	"name" : "jurema",
+	"nameOnDisk" : "jurema",
 	"paths" : 
 	{
 		"build" : ".",
@@ -113,7 +117,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tests/networkmodel/testNetworkModel.cpp",
+			"path" : "src/agent/jurema.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

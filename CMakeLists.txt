@@ -13,4 +13,5 @@ target_link_libraries(bahiart LINK_PUBLIC tcpsocket)
 
 add_executable(jurema src/agent/jurema.cpp)
 target_link_libraries(jurema LINK_PUBLIC tcpsocket)
+ 
 

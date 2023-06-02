@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/network/libsockets.a"
+			"path" : "src/network/libudpsocket.a"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +11,9 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -25,7 +27,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -36,7 +50,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " "
+					"fragment" : "-g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/anacarol/bahiart2023/src/network"
 				}
 			],
 			"language" : "CXX",
@@ -46,9 +67,16 @@
 			]
 		}
 	],
-	"id" : "sockets::@311edf953348ef8fadde",
-	"name" : "sockets",
-	"nameOnDisk" : "libsockets.a",
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "sockets::@311edf953348ef8fadde"
+		}
+	],
+	"id" : "udpsocket::@311edf953348ef8fadde",
+	"name" : "udpsocket",
+	"nameOnDisk" : "libudpsocket.a",
 	"paths" : 
 	{
 		"build" : "src/network",
@@ -75,13 +103,13 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "src/network/socket.hpp",
+			"path" : "src/network/udpsocket.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/network/socket.cpp",
+			"path" : "src/network/udpsocket.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -115,8 +115,8 @@ src/network/clean: src/network/CMakeFiles/sockets.dir/clean
 # Target rules for target CMakeFiles/jurema.dir
 
 # All Build rule for target.
-CMakeFiles/jurema.dir/all: src/network/CMakeFiles/tcpsocket.dir/all
 CMakeFiles/jurema.dir/all: src/network/CMakeFiles/sockets.dir/all
+CMakeFiles/jurema.dir/all: src/network/CMakeFiles/tcpsocket.dir/all
 	$(MAKE) -f CMakeFiles/jurema.dir/build.make CMakeFiles/jurema.dir/depend
 	$(MAKE) -f CMakeFiles/jurema.dir/build.make CMakeFiles/jurema.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anacarol/bahiart2023/build/CMakeFiles --progress-num=3,4 "Built target jurema"
@@ -143,8 +143,8 @@ CMakeFiles/jurema.dir/clean:
 # Target rules for target CMakeFiles/bahiart.dir
 
 # All Build rule for target.
-CMakeFiles/bahiart.dir/all: src/network/CMakeFiles/tcpsocket.dir/all
 CMakeFiles/bahiart.dir/all: src/network/CMakeFiles/sockets.dir/all
+CMakeFiles/bahiart.dir/all: src/network/CMakeFiles/tcpsocket.dir/all
 	$(MAKE) -f CMakeFiles/bahiart.dir/build.make CMakeFiles/bahiart.dir/depend
 	$(MAKE) -f CMakeFiles/bahiart.dir/build.make CMakeFiles/bahiart.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anacarol/bahiart2023/build/CMakeFiles --progress-num=1,2 "Built target bahiart"

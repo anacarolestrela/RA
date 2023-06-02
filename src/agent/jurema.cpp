@@ -36,28 +36,85 @@ int main(int argc, char **argv){
     std::cout << socket.getMessage() << std::endl;
 
     int count = 0;
-    while (true)
+   while (true)
     {
         std::string joint{};
         std::cout << count << std::endl;
 
-        if(count >= 500 && count <700)
+        joint =  "(lle1 0)(rle1 0)(lle3 0)(rle3 0)(lae1 0)(lle4 0)(rle4 0)(rae1 0)(lle2 0)(rae2 0)(lae2 0)(lae3 0)(rae3 0)(lle5 0)(rle5 0)(syn)";
+
+        if(count >= 200 && count <300)
         {
-           joint = "(lle3 100)(lle4 -5)(syn)";
+           joint = "(lle3 200)(lle4 -5)(syn)";
+
+        }  else if(count >= 301 && count <330)
+        {
+            joint = "(lle3 -100)(lle4 5)(syn)";
+        
+        } 
+         else if(count >= 331 && count <350)
+        {
+            joint = "(lle3 0)(lle4 0)(lae2 100)(rae2 -100)(syn)";
+        }
+          else if(count >= 351 && count <380)
+        {
+            joint = "(lae2 0)(rae2 0)(lle4 0)(syn)";
+        }
+        //levantar austin
+          else if(count >= 381 && count <400)
+          {
+             joint = "(lle3 19)(lle4 -40)(lle5 20)(rle3 19)(rle4 -40)(rle5 20)(lae1 -100)(rae1 -100)(lae3 -100)(rae3 100)(lae4 -10)(rae4 10)(syn)";
+          }
+            else if(count >= 401 && count <430)
+            {
+                joint ="(lae2 -100)(rae2 100)(lle3 -100)(rle3 -500)(rle3 -500)(lle5 20)(rle5 20)(lle4 -100)(rle4 -100)(he2 -100)(syn)";
+            }
+            else if(count >= 431 && count <440)
+            {
+                joint ="(lle3 -500)(rle3 -500)(lle4 100)(rle4 100)(lle5 -20)(rle5 -20)(lae2 -100)(rae2 100)(syn)";
+            } 
+
+
+          /*
+          
+         else if(count >= 601 && count <700)
+        {
+            joint = "(lle3 50)(rle3 50)(rae3 -20)(lae3 20)(syn)";
+        }
+        else if(count >= 701 && count <800)
+        {
+            joint = "(rle2 100)(lle2 -100)(syn)";
+        }
+*/
+
+        //levantar antingo
+        /*
+        else if(count >= 500 && count <550)
+        {
+            joint = "(lle3 -100)(rle3 -100)(lae1 -50)(rae1 -50)(syn)";
+        }
+        else if(count >= 550 && count <600)
+        {
+            joint = "(lae1 0)(rae1 0)(syn)";
+        }
+
+        if(count >= 600 && count <700)
+        {
+           joint = "(lle3 -100)(lle4 5)(syn)";
 
         }
-        else if(count >= 700 && count <900)
+
+        if (count >=700 && count <750)
         {
-            joint = "(lle3 0)(lle4 0)(lae1 -50)(rae1 -50)(syn)";
+            joint= "(lle3 100)(rle3 100)(lae1 100)(rae1 100)(syn)";
         }
-        else if(count >= 900 && count <140)
+
+
+        if (count >=750 && count <800)
         {
-            joint = "(lae1 0)(rae1 0)(lle1 100)(lle2 100(syn)";
-        }
-        else
-        {
-            joint = "(lle3 0)(lae1 0)(rae1 0)(syn)";
-        }
+            joint= "(lle3 -100)(rle3 -100)(lle2 -100)(rle2 -100)(syn)";
+        }*/
+
         count++;
        socket.sendMessage(joint);
 
@@ -66,8 +123,8 @@ int main(int argc, char **argv){
         continue;
        }
        std::cout << socket.getMessage() << std::endl;
-    }
     
+    }
 
     return 0;
 }

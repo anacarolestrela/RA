@@ -6,3 +6,35 @@
 
 #IncludeRegexTransform: 
 
+/home/anacarol/bahiart2023/src/network/socket.hpp
+string.h
+-
+iostream
+-
+vector
+-
+memory
+-
+cstring
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netdb.h
+-
+sys/poll.h
+-
+
+/home/anacarol/bahiart2023/src/network/udpsocket.cpp
+udpsocket.hpp
+/home/anacarol/bahiart2023/src/network/udpsocket.hpp
+
+/home/anacarol/bahiart2023/src/network/udpsocket.hpp
+socket.hpp
+/home/anacarol/bahiart2023/src/network/socket.hpp
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anacarol/RA/src/network/socket.hpp
+string.h
+-
+iostream
+-
+vector
+-
+memory
+-
+cstring
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netdb.h
+-
+sys/poll.h
+-
+
+/home/anacarol/RA/src/network/tcpsocket.cpp
+tcpsocket.hpp
+/home/anacarol/RA/src/network/tcpsocket.hpp
+
+/home/anacarol/RA/src/network/tcpsocket.hpp
+socket.hpp
+/home/anacarol/RA/src/network/socket.hpp
+

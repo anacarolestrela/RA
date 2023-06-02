@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/home/anacarol/bahiart2023/build",
+  "command": "/usr/bin/c++   -I../src/network  -g   -o CMakeFiles/jurema.dir/src/agent/jurema.cpp.o -c /home/anacarol/bahiart2023/src/agent/jurema.cpp",
+  "file": "/home/anacarol/bahiart2023/src/agent/jurema.cpp"
+},
+
+{
+  "directory": "/home/anacarol/bahiart2023/build",
+  "command": "/usr/bin/c++   -I../src/network  -g   -o CMakeFiles/bahiart.dir/tests/networkmodel/testNetworkModel.cpp.o -c /home/anacarol/bahiart2023/tests/networkmodel/testNetworkModel.cpp",
+  "file": "/home/anacarol/bahiart2023/tests/networkmodel/testNetworkModel.cpp"
+},
+
+{
+  "directory": "/home/anacarol/bahiart2023/build",
+  "command": "/usr/bin/c++   -I../src/network  -g   -o src/network/CMakeFiles/udpsocket.dir/udpsocket.cpp.o -c /home/anacarol/bahiart2023/src/network/udpsocket.cpp",
+  "file": "/home/anacarol/bahiart2023/src/network/udpsocket.cpp"
+},
+
+{
+  "directory": "/home/anacarol/bahiart2023/build",
+  "command": "/usr/bin/c++   -I../src/network  -g   -o src/network/CMakeFiles/tcpsocket.dir/tcpsocket.cpp.o -c /home/anacarol/bahiart2023/src/network/tcpsocket.cpp",
+  "file": "/home/anacarol/bahiart2023/src/network/tcpsocket.cpp"
+},
+
+{
+  "directory": "/home/anacarol/bahiart2023/build",
+  "command": "/usr/bin/c++    -g   -o src/network/CMakeFiles/sockets.dir/socket.cpp.o -c /home/anacarol/bahiart2023/src/network/socket.cpp",
+  "file": "/home/anacarol/bahiart2023/src/network/socket.cpp"
+}
+]
